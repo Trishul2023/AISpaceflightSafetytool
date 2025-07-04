@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Spaceflight Safety Dashboard</title>
+       <link rel="stylesheet" href="/static/styles.css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+   </head>
+   <body>
+       <h1>Spaceflight Safety Dashboard</h1>
+       <div id="signal" class="signal"></div>
+       <table id="data-table">
+           <thead>
+               <tr>
+                   <th>Timestamp</th>
+                   <th>Pressure (hPa)</th>
+                   <th>Oxygen (%)</th>
+                   <th>Radiation (mSv/h)</th>
+                   <th>AI Status</th>
+                   <th>Signal</th>
+               </tr>
+           </thead>
+           <tbody id="data-body"></tbody>
+       </table>
+       <script src="/static/script.js"></script>
+   </body>
+   </html>

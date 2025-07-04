@@ -1,0 +1,36 @@
+body {
+       font-family: Arial, sans-serif;
+       margin: 20px;
+       text-align: center;
+   }
+   h1 {
+       color: #333;
+   }
+   table {
+       width: 80%;
+       margin: 20px auto;
+       border-collapse: collapse;
+   }
+   th, td {
+       border: 1px solid #ccc;
+       padding: 10px;
+       text-align: center;
+   }
+   th {
+       background-color: #f2f2f2;
+   }
+   .signal {
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       margin: 20px auto;
+   }
+   .signal.green {
+       background-color: green;
+   }
+   .signal.yellow {
+       background-color: yellow;
+   }
+   .signal.red {
+       background-color: red;
+   }
